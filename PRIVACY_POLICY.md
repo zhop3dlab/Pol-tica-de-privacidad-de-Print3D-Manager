@@ -8,7 +8,7 @@ Esta política explica qué datos trata Print3D Manager ("la app"), con qué fin
 
 Print3D Manager es una app desarrollada de forma independiente para la gestión de talleres de impresión 3D (costes, impresoras, materiales, proyectos, clientes, presupuestos y facturas).
 
-Contacto: **[tu-email-de-contacto@ejemplo.com]** _(sustituye este email por uno real de contacto antes de publicar)_.
+Contacto: zhop3dlab@gmail.com
 
 ## 2. Principio general: la app es local por defecto
 
