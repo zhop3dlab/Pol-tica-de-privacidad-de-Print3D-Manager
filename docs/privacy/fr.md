@@ -1,6 +1,6 @@
 # Politique de confidentialité de Print3D Manager
 
-**Dernière mise à jour : 25 août 2026**
+**Dernière mise à jour : 27 août 2026**
 
 _Ceci est une traduction de la version canonique en espagnol, [PRIVACY_POLICY.md](../../PRIVACY_POLICY.md). En cas de divergence, la version espagnole prévaut._
 
@@ -12,73 +12,56 @@ Print3D Manager est une application développée de manière indépendante pour 
 
 Contact : **zhop3dlab@gmail.com**.
 
-## 2. Principe général : l'application est locale par défaut
+## 2. Principe général : l'application est locale
 
-Toutes les informations que vous saisissez (imprimantes, matériaux, projets, clients, devis, factures, inventaire) sont enregistrées **sur votre propre appareil** par défaut. Vous n'avez besoin ni de créer un compte ni d'avoir une connexion internet pour utiliser l'application avec toutes ses fonctionnalités principales.
+Toutes les informations que vous saisissez (imprimantes, matériaux, projets, clients, devis, factures, inventaire) sont enregistrées **uniquement sur votre propre appareil**. Vous n'avez besoin ni de créer un compte ni d'une connexion internet pour utiliser l'application.
 
-Aucune donnée de votre activité n'est envoyée à nos serveurs ni à des tiers, sauf si vous disposez du plan Business et activez volontairement la synchronisation avec le cloud (voir section 3), ou pendant l'affichage d'une publicité (voir section 6).
+Aucune donnée de votre activité n'est envoyée à nos serveurs ni à des tiers, sauf pendant l'affichage d'une publicité (voir section 5, Publicité).
 
-## 3. Compte et synchronisation avec le cloud (plan Business, facultatif)
+## 3. Si vous utilisez l'application pour gérer les données de vos propres clients
 
-Si vous disposez du plan Business et décidez de créer un compte (avec e-mail et mot de passe, ou avec votre compte Google) pour également enregistrer vos données dans le cloud et les utiliser sur plusieurs appareils :
+Si vous enregistrez dans l'application les données de vos clients (nom, adresse, identifiant fiscal, email...) pour des devis et factures, **vous êtes le responsable du traitement de ces données** vis-à-vis de vos propres clients — comme si vous les gériez dans un tableur ou un logiciel de facturation. Print3D Manager n'est que l'outil que vous utilisez pour les enregistrer, toujours sur votre propre appareil.
 
-- **Données du compte** : adresse e-mail et, si vous utilisez Google, le nom et la photo de profil associés à ce compte Google.
-- **Données de votre activité** : si vous activez la synchronisation, une copie de vos projets, clients, imprimantes, matériaux, devis et factures est enregistrée dans une base de données cloud (Google Firebase/Firestore), liée uniquement à votre compte et à votre espace de travail. Personne en dehors de votre compte ne peut accéder à ces données.
-- Vous pouvez cesser d'utiliser le cloud à tout moment et faire fonctionner à nouveau l'application uniquement en local.
-- Vous pouvez **supprimer votre compte et toutes les données cloud associées** à tout moment depuis l'application, dans **Plus → Compte → Supprimer le compte et les données**. Cette action est permanente et immédiate.
+Cela signifie que c'est à vous de vous assurer de disposer d'une base légale appropriée pour traiter les données de vos clients (généralement, votre relation commerciale/contractuelle avec eux) et de répondre à leurs propres demandes d'accès, de rectification ou de suppression s'ils vous les adressent directement.
 
-Nous utilisons Google Firebase (Authentication et Firestore) comme fournisseur d'infrastructure pour le compte et le cloud. Google agit en tant que sous-traitant de ces données selon ses propres conditions : <https://firebase.google.com/support/privacy>.
+## 4. Données qui ne quittent jamais votre appareil
 
-**Base légale** : nous traitons ces données car cela est nécessaire pour vous fournir le service que vous avez souscrit (exécution d'un contrat/utilisation du plan Business) et, pour l'e-mail de contact, avec votre consentement lors de la création du compte.
+- **Fichiers G-code** : si vous utilisez l'analyseur de G-code, le fichier est lu et analysé entièrement sur votre appareil. Son contenu n'est jamais envoyé en ligne ni partagé avec qui que ce soit.
+- **Sauvegardes locales** : exporter/importer vos données dans un fichier JSON (offre Pro) est une opération entièrement locale.
+- **PDF de devis et factures** : générés sur votre appareil. Les partager ou les télécharger est une action explicite de votre part.
+- **Rappels de livraison** : l'alerte de date de livraison d'un projet est une notification programmée entièrement par le système d'exploitation de votre appareil ; elle ne transite jamais par nos serveurs.
 
-**Conservation** : tant que vous maintenez votre compte actif. Si vous le supprimez (Plus → Compte → Supprimer le compte et les données), les données dans le cloud sont supprimées immédiatement. Si vous ne créez jamais de compte, aucune donnée n'est générée dans le cloud.
+## 5. Publicité
 
-**Transferts internationaux** : l'infrastructure de Google Firebase peut traiter et stocker des données dans des centres de données situés en dehors de votre pays, y compris en dehors de l'Espace économique européen. Google offre des garanties conformes au RGPD (clauses contractuelles types) pour ces transferts — plus de détails au lien ci-dessus.
-
-## 4. Si vous utilisez l'application pour gérer les données de vos propres clients
-
-Si vous enregistrez dans l'application des données de vos clients (nom, adresse, identifiant fiscal, e-mail...) pour des devis et factures, **vous êtes le responsable du traitement de ces données** vis-à-vis de vos propres clients — de la même manière que si vous les gériez dans un tableur ou un logiciel de facturation. Print3D Manager est uniquement l'outil que vous utilisez pour les enregistrer (et, si vous disposez du plan Business avec la synchronisation activée, le sous-traitant pour le cloud).
-
-Cela signifie que c'est à vous de vous assurer de disposer d'une base légale adéquate pour traiter les données de vos clients (généralement, votre relation commerciale/contractuelle avec eux) et de répondre à leurs propres demandes d'accès, de rectification ou de suppression si elles vous sont adressées directement.
-
-## 5. Données qui ne quittent jamais votre appareil
-
-- **Fichiers G-code** : si vous utilisez l'analyseur de G-code, le fichier est lu et analysé entièrement sur votre appareil. Le contenu du fichier n'est jamais téléchargé sur internet ni partagé avec qui que ce soit ; vous seul voyez les données extraites (temps estimé, grammes, températures).
-- **Sauvegardes locales** : exporter/importer vos données dans un fichier JSON (plans Pro et Business) est une opération entièrement locale — le fichier est enregistré où vous le décidez (par exemple, en le partageant vous-même par e-mail ou en l'enregistrant dans votre propre stockage).
-- **PDF de devis et factures** : générés sur votre appareil. Les partager ou les télécharger est une action explicite de votre part ; l'application ne les envoie à aucun serveur qui nous appartienne.
-
-## 6. Publicité
-
-L'application affiche des publicités via **Google AdMob** aux utilisateurs du plan gratuit. AdMob peut collecter des identifiants publicitaires de votre appareil pour afficher des publicités (personnalisées ou non, selon les paramètres de confidentialité de votre système d'exploitation) et mesurer leurs performances. Ce traitement est effectué par Google conformément à sa propre politique de confidentialité : <https://policies.google.com/privacy> et à sa politique spécifique à AdMob : <https://support.google.com/admob/answer/6128543>.
+L'application affiche des publicités via **Google AdMob** aux utilisateurs de l'offre gratuite. AdMob peut collecter des identifiants publicitaires de votre appareil pour afficher des publicités (personnalisées ou non, selon les paramètres de confidentialité de votre système d'exploitation) et mesurer leur performance. Ce traitement est effectué par Google conformément à sa propre politique de confidentialité : <https://policies.google.com/privacy> et sa politique spécifique à AdMob : <https://support.google.com/admob/answer/6128543>.
 
 **Base légale** : consentement (géré via les paramètres de confidentialité de votre appareil/Google) et intérêt légitime à financer l'application gratuite par la publicité.
 
-Les utilisateurs des plans payants (Pro et Business) ne voient pas de publicités.
+Les utilisateurs de l'offre payante (Pro) ne voient aucune publicité.
 
-## 7. Ce que nous NE faisons PAS
+## 6. Ce que nous NE faisons PAS
 
 - Nous ne vendons vos données à personne.
-- Nous n'accédons pas au contenu de vos projets, clients ou factures, sauf si vous disposez du plan Business et activez expressément la synchronisation cloud — et même dans ce cas, nous ne les consultons pas manuellement.
+- Nous n'accédons pas au contenu de vos projets, clients ou factures — nous ne les consultons même pas manuellement.
 - Nous n'utilisons pas vos données professionnelles pour entraîner des modèles d'intelligence artificielle.
 - Nous ne demandons pas les autorisations caméra, contacts, localisation ou microphone — l'application n'en a pas besoin et ne les demande pas.
+- Nous n'envoyons ni ne stockons aucune donnée de votre activité sur un serveur.
 
-## 8. Vos droits
+## 7. Vos droits
 
-Vous avez le droit d'accéder à vos données, de les rectifier, de les supprimer, de limiter leur traitement, de vous y opposer et d'en demander la portabilité. En pratique, depuis l'application vous pouvez :
+Vous avez le droit d'accéder à vos données, de les rectifier, de les supprimer, d'en limiter le traitement, de vous y opposer et d'en demander la portabilité. Comme toutes vos données ne se trouvent que sur votre appareil, vous pouvez exercer ces droits vous-même à tout moment :
 
-- **Voir** combien de données vous avez enregistrées localement et dans le cloud (Plus → Compte).
-- **Télécharger** une copie de vos données dans un fichier JSON (plans Pro et Business, Plus → Données).
-- **Supprimer** votre compte et toutes les données cloud associées depuis l'application (Plus → Compte → Supprimer le compte et les données).
-- **Désinstaller l'application** à tout moment, ce qui supprime toutes les données enregistrées localement sur votre appareil.
+- **Télécharger** une copie de vos données dans un fichier JSON (offre Pro, Plus → Données).
+- **Désinstaller l'application** à tout moment, ce qui supprime toutes les données stockées sur votre appareil.
 
 Si vous avez besoin d'aide concernant l'un de ces droits, ou si vous avez des questions sur cette politique, contactez **zhop3dlab@gmail.com**.
 
-Si vous estimez que votre demande n'a pas été traitée correctement, vous avez le droit de déposer une réclamation auprès de l'autorité de contrôle de la protection des données de votre pays (en Espagne, l'**Agencia Española de Protección de Datos**, <https://www.aepd.es>).
+Si vous estimez que votre demande n'a pas été correctement traitée, vous avez le droit de déposer une réclamation auprès de l'autorité de contrôle de protection des données de votre pays (en France, la **CNIL**, <https://www.cnil.fr>).
 
-## 9. Mineurs
+## 8. Mineurs
 
 L'application ne s'adresse pas aux mineurs et nous ne collectons pas sciemment de données les concernant.
 
-## 10. Modifications de cette politique
+## 9. Modifications de cette politique
 
-Si cette politique change de manière significative, la date en haut du document sera mise à jour. L'utilisation continue de l'application après un changement implique l'acceptation de la politique mise à jour.
+Si cette politique change de manière substantielle, la date en haut du document sera mise à jour. Continuer à utiliser l'application après une modification implique l'acceptation de la politique mise à jour.

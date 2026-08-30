@@ -1,10 +1,10 @@
 # Datenschutzerklärung von Print3D Manager
 
-**Letzte Aktualisierung: 25. August 2026**
+**Letzte Aktualisierung: 27. August 2026**
 
-_Dies ist eine Übersetzung der maßgeblichen spanischen Fassung, [PRIVACY_POLICY.md](../../PRIVACY_POLICY.md). Bei Abweichungen gilt die spanische Fassung._
+_Dies ist eine Übersetzung der kanonischen spanischen Version, [PRIVACY_POLICY.md](../../PRIVACY_POLICY.md). Im Falle von Abweichungen gilt die spanische Version._
 
-Diese Datenschutzerklärung erklärt, welche Daten Print3D Manager ("die App") verarbeitet, zu welchem Zweck, auf welcher Rechtsgrundlage, wie lange sie gespeichert werden und welche Möglichkeiten du hast. Sie beschreibt genau das, was die App heute tut, nicht zukünftige Funktionen.
+Diese Richtlinie erklärt, welche Daten Print3D Manager ("die App") verarbeitet, zu welchem Zweck, auf welcher Rechtsgrundlage, wie lange sie aufbewahrt werden und welche Wahlmöglichkeiten du hast. Sie beschreibt genau das, was die App heute tut, nicht zukünftige Funktionen.
 
 ## 1. Wer die Daten verarbeitet
 
@@ -12,73 +12,56 @@ Print3D Manager ist eine unabhängig entwickelte App zur Verwaltung einer 3D-Dru
 
 Kontakt: **zhop3dlab@gmail.com**.
 
-## 2. Allgemeiner Grundsatz: Die App ist standardmäßig lokal
+## 2. Allgemeiner Grundsatz: Die App ist lokal
 
-Alle Informationen, die du eingibst (Drucker, Materialien, Projekte, Kunden, Angebote, Rechnungen, Inventar), werden standardmäßig **auf deinem eigenen Gerät** gespeichert. Du brauchst weder ein Konto noch eine Internetverbindung, um die App mit allen Kernfunktionen zu nutzen.
+Alle von dir eingegebenen Informationen (Drucker, Materialien, Projekte, Kunden, Angebote, Rechnungen, Inventar) werden **ausschließlich auf deinem eigenen Gerät** gespeichert. Du benötigst weder ein Konto noch eine Internetverbindung, um die App zu nutzen.
 
-Es werden keine Daten deines Unternehmens an unsere Server oder Dritte gesendet, es sei denn, du hast den Business-Tarif und aktivierst freiwillig die Cloud-Synchronisierung (siehe Abschnitt 3), oder während eine Anzeige angezeigt wird (siehe Abschnitt 6).
+Es werden keine Geschäftsdaten an unsere Server oder an Dritte gesendet, außer während eine Anzeige gezeigt wird (siehe Abschnitt 5, Werbung).
 
-## 3. Konto und Cloud-Synchronisierung (Business-Tarif, optional)
+## 3. Wenn du die App nutzt, um Daten deiner eigenen Kunden zu verwalten
 
-Wenn du den Business-Tarif hast und dich entscheidest, ein Konto zu erstellen (mit E-Mail und Passwort oder mit deinem Google-Konto), um deine Daten auch in der Cloud zu speichern und auf mehreren Geräten zu nutzen:
+Wenn du in der App Daten deiner Kunden (Name, Adresse, Steuer-ID, E-Mail ...) für Angebote und Rechnungen speicherst, **bist du der Verantwortliche für die Verarbeitung dieser Daten** gegenüber deinen eigenen Kunden — genauso, als würdest du sie in einer Tabellenkalkulation oder Rechnungssoftware führen. Print3D Manager ist lediglich das Werkzeug, das du zum Speichern nutzt, immer auf deinem eigenen Gerät.
 
-- **Kontodaten**: E-Mail-Adresse und, wenn du Google nutzt, der Name und das Profilbild, die mit diesem Google-Konto verknüpft sind.
-- **Unternehmensdaten**: Wenn du die Synchronisierung aktivierst, wird eine Kopie deiner Projekte, Kunden, Drucker, Materialien, Angebote und Rechnungen in einer Cloud-Datenbank (Google Firebase/Firestore) gespeichert, die nur mit deinem Konto und deinem Arbeitsbereich verknüpft ist. Niemand außerhalb deines Kontos kann auf diese Daten zugreifen.
-- Du kannst die Nutzung der Cloud jederzeit beenden und die App wieder ausschließlich lokal betreiben.
-- Du kannst **dein Konto und alle zugehörigen Cloud-Daten** jederzeit direkt in der App löschen, unter **Mehr → Konto → Konto und Daten löschen**. Diese Aktion ist dauerhaft und sofort wirksam.
+Das bedeutet, dass du selbst dafür sorgen musst, eine angemessene Rechtsgrundlage für die Verarbeitung der Daten deiner Kunden zu haben (in der Regel eure geschäftliche/vertragliche Beziehung) und ihre eigenen Anfragen auf Zugang, Berichtigung oder Löschung zu bearbeiten, falls sie sich direkt an dich wenden.
 
-Wir nutzen Google Firebase (Authentication und Firestore) als Infrastrukturanbieter für Konto und Cloud. Google agiert dabei gemäß seinen eigenen Bedingungen als Auftragsverarbeiter dieser Daten: <https://firebase.google.com/support/privacy>.
+## 4. Daten, die dein Gerät nie verlassen
 
-**Rechtsgrundlage**: Wir verarbeiten diese Daten, weil dies zur Erbringung der von dir gebuchten Dienstleistung erforderlich ist (Vertragserfüllung/Nutzung des Business-Tarifs) und, im Fall der Kontakt-E-Mail, mit deiner Einwilligung bei der Kontoerstellung.
+- **G-Code-Dateien**: Wenn du den G-Code-Analysator nutzt, wird die Datei vollständig auf deinem Gerät gelesen und analysiert. Der Inhalt wird nie hochgeladen oder mit jemandem geteilt.
+- **Lokale Sicherungen**: Das Exportieren/Importieren deiner Daten als JSON-Datei (Pro-Plan) ist ein vollständig lokaler Vorgang.
+- **Angebots- und Rechnungs-PDFs**: werden auf deinem Gerät erstellt. Sie zu teilen oder herunterzuladen ist immer eine ausdrückliche Handlung deinerseits.
+- **Liefererinnerungen**: Der Hinweis zum Liefertermin eines Projekts ist eine Benachrichtigung, die vollständig vom Betriebssystem deines Geräts geplant wird; sie läuft nie über einen unserer Server.
 
-**Aufbewahrung**: solange du dein Konto aktiv hältst. Wenn du es löschst (Mehr → Konto → Konto und Daten löschen), werden die Cloud-Daten sofort gelöscht. Wenn du nie ein Konto erstellst, entstehen keine Cloud-Daten.
+## 5. Werbung
 
-**Internationale Datenübermittlungen**: Die Infrastruktur von Google Firebase kann Daten in Rechenzentren außerhalb deines Landes verarbeiten und speichern, auch außerhalb des Europäischen Wirtschaftsraums. Google bietet für solche Übermittlungen DSGVO-konforme Garantien (Standardvertragsklauseln) — weitere Details im obigen Link.
-
-## 4. Wenn du die App zur Verwaltung der Daten deiner eigenen Kunden nutzt
-
-Wenn du in der App Daten deiner Kunden speicherst (Name, Adresse, Steuer-ID, E-Mail...) für Angebote und Rechnungen, **bist du der Verantwortliche für die Verarbeitung dieser Daten** gegenüber deinen eigenen Kunden — genauso, als würdest du sie in einer Tabellenkalkulation oder Rechnungssoftware führen. Print3D Manager ist lediglich das Werkzeug, das du zum Speichern nutzt (und, wenn du den Business-Tarif mit aktivierter Synchronisierung hast, der Auftragsverarbeiter in der Cloud).
-
-Das bedeutet, dass du selbst sicherstellen musst, eine geeignete Rechtsgrundlage für die Verarbeitung der Daten deiner Kunden zu haben (in der Regel die geschäftliche/vertragliche Beziehung zu ihnen), und dass du ihre eigenen Anfragen auf Zugang, Berichtigung oder Löschung bearbeitest, wenn sie sich direkt an dich wenden.
-
-## 5. Daten, die dein Gerät nie verlassen
-
-- **G-Code-Dateien**: Wenn du den G-Code-Analyzer nutzt, wird die Datei vollständig auf deinem Gerät gelesen und analysiert. Der Dateiinhalt wird nie ins Internet hochgeladen oder mit jemandem geteilt; nur du siehst die extrahierten Daten (geschätzte Zeit, Gramm, Temperaturen).
-- **Lokale Sicherungen**: Das Exportieren/Importieren deiner Daten als JSON-Datei (Pro- und Business-Tarif) ist ein vollständig lokaler Vorgang — die Datei wird dort gespeichert, wo du es entscheidest (z. B. indem du sie selbst per E-Mail teilst oder in deinem eigenen Speicher ablegst).
-- **PDFs von Angeboten und Rechnungen**: werden auf deinem Gerät erzeugt. Das Teilen oder Herunterladen ist eine ausdrückliche Handlung deinerseits; die App sendet sie an keinen eigenen Server.
-
-## 6. Werbung
-
-Die App zeigt Nutzern des kostenlosen Tarifs Werbung über **Google AdMob** an. AdMob kann Werbe-IDs von deinem Gerät erfassen, um Anzeigen zu schalten (personalisiert oder nicht, je nach den Datenschutzeinstellungen deines Betriebssystems) und deren Leistung zu messen. Diese Verarbeitung erfolgt durch Google gemäß dessen eigener Datenschutzerklärung: <https://policies.google.com/privacy> und der spezifischen AdMob-Richtlinie: <https://support.google.com/admob/answer/6128543>.
+Die App zeigt Nutzern des kostenlosen Plans Werbung über **Google AdMob** an. AdMob kann Werbekennungen deines Geräts erfassen, um Anzeigen zu schalten (personalisiert oder nicht, je nach den Datenschutzeinstellungen deines Betriebssystems) und deren Leistung zu messen. Diese Verarbeitung erfolgt durch Google gemäß dessen eigener Datenschutzerklärung: <https://policies.google.com/privacy> und der spezifischen AdMob-Richtlinie: <https://support.google.com/admob/answer/6128543>.
 
 **Rechtsgrundlage**: Einwilligung (verwaltet über die Datenschutzeinstellungen deines Geräts/von Google) und berechtigtes Interesse an der Finanzierung der kostenlosen App durch Werbung.
 
-Nutzer der kostenpflichtigen Tarife (Pro und Business) sehen keine Werbung.
+Nutzer:innen des kostenpflichtigen Plans (Pro) sehen keine Werbung.
 
-## 7. Was wir NICHT tun
+## 6. Was wir NICHT tun
 
 - Wir verkaufen deine Daten an niemanden.
-- Wir greifen nicht auf den Inhalt deiner Projekte, Kunden oder Rechnungen zu, es sei denn, du hast den Business-Tarif und aktivierst ausdrücklich die Cloud-Synchronisierung — und selbst dann sehen wir sie uns nicht manuell an.
-- Wir nutzen deine Unternehmensdaten nicht, um Modelle der künstlichen Intelligenz zu trainieren.
+- Wir greifen nicht auf den Inhalt deiner Projekte, Kunden oder Rechnungen zu — wir prüfen ihn nicht einmal manuell.
+- Wir verwenden deine Geschäftsdaten nicht zum Trainieren von KI-Modellen.
 - Wir fordern keine Berechtigungen für Kamera, Kontakte, Standort oder Mikrofon an — die App benötigt sie nicht und fragt nicht danach.
+- Wir senden oder speichern keine deiner Geschäftsdaten auf irgendeinem Server.
 
-## 8. Deine Rechte
+## 7. Deine Rechte
 
-Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch und Datenübertragbarkeit. In der Praxis kannst du direkt in der App:
+Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch und Datenübertragbarkeit. Da alle deine Daten nur auf deinem Gerät liegen, kannst du diese Rechte jederzeit selbst ausüben:
 
-- **Einsehen**, wie viele Daten du lokal und in der Cloud gespeichert hast (Mehr → Konto).
-- Eine **Kopie** deiner Daten als JSON-Datei **herunterladen** (Pro- und Business-Tarif, Mehr → Daten).
-- Dein **Konto und alle zugehörigen Cloud-Daten löschen**, direkt in der App (Mehr → Konto → Konto und Daten löschen).
-- Die **App jederzeit deinstallieren**, wodurch alle lokal auf deinem Gerät gespeicherten Daten entfernt werden.
+- **Herunterladen** einer Kopie deiner Daten als JSON-Datei (Pro-Plan, Mehr → Daten).
+- **Deinstallieren der App** jederzeit, wodurch alle auf deinem Gerät gespeicherten Daten entfernt werden.
 
-Wenn du Hilfe zu einem dieser Rechte benötigst oder Fragen zu dieser Datenschutzerklärung hast, wende dich an **zhop3dlab@gmail.com**.
+Wenn du Hilfe bei einem dieser Rechte benötigst oder Fragen zu dieser Richtlinie hast, wende dich an **zhop3dlab@gmail.com**.
 
-Wenn du der Meinung bist, dass deine Anfrage nicht ordnungsgemäß bearbeitet wurde, hast du das Recht, eine Beschwerde bei der Datenschutz-Aufsichtsbehörde deines Landes einzureichen (in Spanien die **Agencia Española de Protección de Datos**, <https://www.aepd.es>).
+Wenn du der Meinung bist, dass wir deine Anfrage nicht angemessen bearbeitet haben, hast du das Recht, dich bei der Datenschutzaufsichtsbehörde deines Landes zu beschweren.
 
-## 9. Minderjährige
+## 8. Minderjährige
 
-Die App richtet sich nicht an Minderjährige, und wir erheben wissentlich keine Daten von Minderjährigen.
+Die App richtet sich nicht an Minderjährige, und wir erheben nicht wissentlich Daten von Minderjährigen.
 
-## 10. Änderungen dieser Datenschutzerklärung
+## 9. Änderungen dieser Richtlinie
 
-Wenn sich diese Datenschutzerklärung wesentlich ändert, wird das Datum am Anfang des Dokuments aktualisiert. Die fortgesetzte Nutzung der App nach einer Änderung gilt als Zustimmung zur aktualisierten Datenschutzerklärung.
+Wenn sich diese Richtlinie wesentlich ändert, wird das Datum oben im Dokument aktualisiert. Die weitere Nutzung der App nach einer Änderung bedeutet die Annahme der aktualisierten Richtlinie.
