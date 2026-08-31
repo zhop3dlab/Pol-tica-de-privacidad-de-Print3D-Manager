@@ -1,6 +1,6 @@
 # Datenschutzerklärung von Print3D Manager
 
-**Letzte Aktualisierung: 27. August 2026**
+**Letzte Aktualisierung: 31. August 2026**
 
 _Dies ist eine Übersetzung der kanonischen spanischen Version, [PRIVACY_POLICY.md](../../PRIVACY_POLICY.md). Im Falle von Abweichungen gilt die spanische Version._
 
@@ -16,7 +16,7 @@ Kontakt: **zhop3dlab@gmail.com**.
 
 Alle von dir eingegebenen Informationen (Drucker, Materialien, Projekte, Kunden, Angebote, Rechnungen, Inventar) werden **ausschließlich auf deinem eigenen Gerät** gespeichert. Du benötigst weder ein Konto noch eine Internetverbindung, um die App zu nutzen.
 
-Es werden keine Geschäftsdaten an unsere Server oder an Dritte gesendet, außer während eine Anzeige gezeigt wird (siehe Abschnitt 5, Werbung).
+Es werden keine Geschäftsdaten an unsere Server oder an Dritte gesendet.
 
 ## 3. Wenn du die App nutzt, um Daten deiner eigenen Kunden zu verwalten
 
@@ -27,41 +27,34 @@ Das bedeutet, dass du selbst dafür sorgen musst, eine angemessene Rechtsgrundla
 ## 4. Daten, die dein Gerät nie verlassen
 
 - **G-Code-Dateien**: Wenn du den G-Code-Analysator nutzt, wird die Datei vollständig auf deinem Gerät gelesen und analysiert. Der Inhalt wird nie hochgeladen oder mit jemandem geteilt.
-- **Lokale Sicherungen**: Das Exportieren/Importieren deiner Daten als JSON-Datei (Pro-Plan) ist ein vollständig lokaler Vorgang.
+- **Lokale Sicherungen**: Das Exportieren/Importieren deiner Daten als JSON-Datei ist ein vollständig lokaler Vorgang.
 - **Angebots- und Rechnungs-PDFs**: werden auf deinem Gerät erstellt. Sie zu teilen oder herunterzuladen ist immer eine ausdrückliche Handlung deinerseits.
 - **Liefererinnerungen**: Der Hinweis zum Liefertermin eines Projekts ist eine Benachrichtigung, die vollständig vom Betriebssystem deines Geräts geplant wird; sie läuft nie über einen unserer Server.
 
-## 5. Werbung
-
-Die App zeigt Nutzern des kostenlosen Plans Werbung über **Google AdMob** an. AdMob kann Werbekennungen deines Geräts erfassen, um Anzeigen zu schalten (personalisiert oder nicht, je nach den Datenschutzeinstellungen deines Betriebssystems) und deren Leistung zu messen. Diese Verarbeitung erfolgt durch Google gemäß dessen eigener Datenschutzerklärung: <https://policies.google.com/privacy> und der spezifischen AdMob-Richtlinie: <https://support.google.com/admob/answer/6128543>.
-
-**Rechtsgrundlage**: Einwilligung (verwaltet über die Datenschutzeinstellungen deines Geräts/von Google) und berechtigtes Interesse an der Finanzierung der kostenlosen App durch Werbung.
-
-Nutzer:innen des kostenpflichtigen Plans (Pro) sehen keine Werbung.
-
-## 6. Was wir NICHT tun
+## 5. Was wir NICHT tun
 
 - Wir verkaufen deine Daten an niemanden.
 - Wir greifen nicht auf den Inhalt deiner Projekte, Kunden oder Rechnungen zu — wir prüfen ihn nicht einmal manuell.
 - Wir verwenden deine Geschäftsdaten nicht zum Trainieren von KI-Modellen.
 - Wir fordern keine Berechtigungen für Kamera, Kontakte, Standort oder Mikrofon an — die App benötigt sie nicht und fragt nicht danach.
 - Wir senden oder speichern keine deiner Geschäftsdaten auf irgendeinem Server.
+- Wir zeigen keine Werbung und verwenden keine Werbekennung — die App ist kostenlos und hat derzeit keine aktive kostenpflichtige Funktion.
 
-## 7. Deine Rechte
+## 6. Deine Rechte
 
 Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch und Datenübertragbarkeit. Da alle deine Daten nur auf deinem Gerät liegen, kannst du diese Rechte jederzeit selbst ausüben:
 
-- **Herunterladen** einer Kopie deiner Daten als JSON-Datei (Pro-Plan, Mehr → Daten).
+- **Herunterladen** einer Kopie deiner Daten als JSON-Datei (Mehr → Daten).
 - **Deinstallieren der App** jederzeit, wodurch alle auf deinem Gerät gespeicherten Daten entfernt werden.
 
 Wenn du Hilfe bei einem dieser Rechte benötigst oder Fragen zu dieser Richtlinie hast, wende dich an **zhop3dlab@gmail.com**.
 
 Wenn du der Meinung bist, dass wir deine Anfrage nicht angemessen bearbeitet haben, hast du das Recht, dich bei der Datenschutzaufsichtsbehörde deines Landes zu beschweren.
 
-## 8. Minderjährige
+## 7. Minderjährige
 
 Die App richtet sich nicht an Minderjährige, und wir erheben nicht wissentlich Daten von Minderjährigen.
 
-## 9. Änderungen dieser Richtlinie
+## 8. Änderungen dieser Richtlinie
 
 Wenn sich diese Richtlinie wesentlich ändert, wird das Datum oben im Dokument aktualisiert. Die weitere Nutzung der App nach einer Änderung bedeutet die Annahme der aktualisierten Richtlinie.
